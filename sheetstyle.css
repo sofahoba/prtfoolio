@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif; /* Add a font-family for better readability */
+}
+
+header{
+    background-color: rgb(16, 54, 150);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+.logo{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize; 
+    font-weight: 700;
+    font-size: 1.8em; 
+}
+
+.nave a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.nave a:hover{
+    color: blueviolet;
+}
+
+section{
+    padding: 100px 5%;
+}
+
+.main{
+    color: aliceblue;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(wp2234615.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center; /* Center text for better mobile experience */
+}
+
+.main h2{
+    color: aliceblue;
+    font-size: 2em; /* Adjust font size for better readability */
+}
+
+.main h2 span{
+    display: block;
+    margin-top: 10px;
+    color: aqua;
+    font-size: 1.5em;
+}
+
+.content{
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(73, 10, 98);
+    text-decoration: none;
+    background-color: rgb(128, 255, 212);
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1em;
+    padding: 10px;
+    transition: 1s ease;
+}
+
+.content:hover{
+    background-color: rgb(127, 255, 227);
+    transform: scale(1.1);
+}
+
+.main h3{
+    color: aliceblue;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.social-icons a{
+    color: aliceblue;
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.second-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: aliceblue;
+    width: 100%;
+    max-width: 21.2em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.55);
+    border-radius: 10px;
+    padding: 29px;
+    margin: 15px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.7s ease;
+}
+
+.icon{
+    font-size: 4em;
+    text-align: center;
+}
+
+.info h3{
+    color: rgb(2, 116, 222);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.titlev{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.2em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.vid .second-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.vid{
+    background-color: rgb(14, 10, 64);
+}
+
+.vidcard{
+    background-color: aliceblue;
+    border: 2px solid white;
+    width: 100%;
+    max-width: 23em;
+    min-height: 14em;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.vidimg img{
+    width: 100%;
+}
+
+.video-info{
+    padding: 1em;
+}
+
+.video-cat{
+    font-size: 0.8em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.watch-video{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(21, 51, 156);
+    transition: 0.5s ease;
+}
+
+.watch-video:hover{
+    transform: scale(1.05);
+}
+
+.cont{
+    width: 100%;
+    background-image: url(contact-us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+
+.titlec{
+    display: flex;
+    justify-content: center;
+    color: rgb(236, 236, 236);
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.bord{
+    margin-bottom: 10px;
+    border: 2px solid white;
+    background-color: rgb(24, 56, 219);
+    width: 90%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.footerr{
+    background-color: rgb(6, 6, 64);
+    color: aliceblue;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.titlef{
+    font-size: 1.3em;
+    font-weight: 200;
+}
+
+.titlef span{
+    color: rgb(3, 101, 200);
+}
+
+@media (max-width: 1023px){
+    header{
+        padding: 12px 5%;
+    }
+
+    .nave{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 5%;
+    }
+
+    .main h2{
+        font-size: 1.5em;
+    }
+
+    .main h3{
+        font-size: 1.2em;
+    }
+
+    .second-content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 641px){
+    body{
+        font-size: 14px;
+    }
+
+    .main h2{
+        font-size: 1.2em;
+    }
+
+    .main h3{
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 300px){
+    body{
+        font-size: 12px;
+    }
+
+    .main h2{
+        font-size: 1em;
+    }
+
+    .main h3{
+        font-size: 0.8em;
+    }
+}
